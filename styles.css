@@ -1,2 +1,41 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */.fluid {
+display: grid;
+grid-template-columns: repeat(12,50px);
+grid-template-rows: 50px, 50px 50px;
+grid-gap: 10px 10px;
+
+}
+.img13 {
+grid-column: 1/ 2;
+
+}
+.img14 {
+grid-column: 3/span 2;
+
+}
+.img15 {
+grid-column: 5/span 2;
+
+}
+.img16 {
+grid-column: 7/span 2;
+
+}
+.img17 {
+grid-column: 9/span 2;
+
+}
+.img18 {
+grid-column: 11/span 2;
+
+}
+.img19{
+grid-column: 1/span 4;
+}
+.img20{
+grid-column: 5/span 4;
+}
+.img22{
+grid-column: 6/12;
+}
