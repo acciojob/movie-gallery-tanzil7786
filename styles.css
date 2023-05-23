@@ -1,10 +1,9 @@
 
 /* Your CSS Code here. */
 .container-fluid{
-
 display: grid;
 grid-template-columns: repeat(12,50px);
-grid-template-rows: 50px, 50px 50px;
+grid-template-rows: repeat(3, 50px);
 grid-gap: 10px 10px;
 justify-content:center;
 
@@ -12,6 +11,9 @@ justify-content:center;
 img{
 height:100px;
 width:100px;
+}
+row{
+	display:flex;
 }
 .img13 {
 grid-column: 1/span 2;
