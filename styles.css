@@ -1,5 +1,6 @@
 
-/* Your CSS Code here. */.fluid {
+/* Your CSS Code here. */
+.container-fluid{
 
 display: grid;
 grid-template-columns: repeat(12,50px);
